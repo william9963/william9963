@@ -1,0 +1,43 @@
+/*shop inf 1 */
+.box {
+  padding: 30px;  
+ }
+ .box p {
+  font-weight: 60;
+  padding: 20px;
+  font-size: 15px;
+ }
+ .box h2 {
+  font-weight: 120;
+  font-size: 30px;
+ }
+ .box a {
+   text-decoration: none;
+   color: darkred;
+   font-size: 20px;
+ }
+ .box a:hover {
+   text-decoration: underline;
+ }
+ .container{
+  margin-top: 40px;
+}
+ .container ul {
+   padding-left: 0px;
+ }
+ .mck {
+  font-size: 20px;
+  font-weight: bolder;
+  display: block;
+}
+.vb span {
+  font-weight: 200;
+}
+.ig{
+  width: 100%;
+  height: auto;;
+}
+.vb {
+  padding-bottom: 23px;
+}
+.lable {padding: 20px ;}

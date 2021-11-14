@@ -1,0 +1,46 @@
+/* footer */
+.container{
+  margin-top: 40px;
+}
+.footer {
+  text-transform: capitalize; 
+  font-size: large;
+  padding-bottom: 25px; 
+}
+.vb p {
+  font-weight: 100;
+}
+.cab {
+  list-style: none;
+  padding: 40px 0px 40px 0px;
+  font-size: 15px;
+}
+.cab span {
+  padding-left: 15px;
+}  
+.bbc {
+  padding-top: 40px;
+}
+footer {
+  padding-top: 20px;
+  background-color: #e6e6e6;
+}
+#icon {
+  margin-bottom: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+footer p:hover {
+  text-decoration: underline;
+  color: red;
+}
+.flex span:hover {
+  text-decoration: underline;
+  color: red;
+}
+@media screen and (max-width:992px) {
+  .but-inf{display: block;}
+  .cab {padding-left: -50px;} 
+}

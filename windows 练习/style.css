@@ -1,0 +1,276 @@
+body {
+  font-weight: 150;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* nav */ 
+.navbar-nav a:hover {text-decoration: underline;}
+.drop-inf p:hover {
+  text-decoration: underline;
+  color: red;
+}
+.check:hover {text-decoration: underline;}
+
+.allmicro-showcas a:hover {text-decoration: underline;}
+
+.drop-inf div {padding-bottom: 10px;}
+
+
+
+.list {list-style: none;}
+
+.list li {display: inline-block;}
+
+.nav-showbox {
+  width: 100px;
+  margin: -5px 20px 0px 70px;
+} 
+.drop-inf {
+  margin-left: -950px;
+  width: max-content;
+  padding:30px 0px 0px 30px;
+  background-color: #e6e6e6;
+  font-weight: 400;
+}
+.all-site {
+  text-align: center;
+  padding-top: 15px;
+}
+.person-inf {margin: 0px 70px 0px 10px;}
+
+form div {
+  display: inline-block;
+  margin: 0px 10px;
+}
+.check {padding-right: 10px;}
+@media screen and (max-width:1300px) {
+  .drop-inf{
+    margin-left: -800px;
+  }
+}
+@media screen and (max-width:1250px) {
+  .list {display: none;}
+  .drop-inf{
+    margin-left: -700px;
+  }
+}
+@media screen and (min-width:1250px) {
+  .more {display: none;}
+}
+@media screen and (max-width:1100px) {
+  .check {display: none;}
+}
+@media screen and (max-width:992px) {
+  .navbar {
+    display: inherit;
+  } 
+  .allmicro-showcas {display: none;}
+  .person-inf {display: none;}
+  .all-site {float: left;}
+  .more {display: none;}
+  .navbar-nav {padding-left: 20px;}
+  .icon-inf-1 {padding-left: 20px;}
+  .cont-f1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .icon-inf-2 {
+    order: -1;
+  }
+  .cont-f1 svg {margin-left: 10px;}
+  .cont-f1 button {margin-left: -10px;}
+  
+}
+@media screen and (min-width:992px) {
+  .acrdn {display: none;}
+  .icon-inf-1 {display: none;}
+  .icon-inf-2 {display: none;}
+}
+
+
+/* Carousel */
+.cim {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.cl {
+  width: 90%;
+  height: auto;
+  position: relative;
+  margin:0px auto;
+}
+.co{
+  width: 100%;
+  height: auto;
+}
+.clp {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+.ig{
+  width: 100%;
+  height: auto;
+}
+.clp button:hover {text-decoration: underline;}
+@media screen and (max-width:1200px) {
+  .clp {
+    position: absolute;
+    top: 70px;
+    left: 130px;
+   
+  }
+  .cl {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width:1000px) {
+  .clp {max-width: 500px;}
+}
+@media screen and (max-width:992px) {
+  .cim {
+    width: 100%;
+    height: auto;
+  }
+  .cl {
+    width: 100%;
+    height: auto;
+  }
+ .clp {
+   position: relative;
+   top: 0px;
+   left: 0px;
+   background-color: rgb(190, 190, 183);
+   text-align: center;
+   max-width: 100%;
+   height: 50%;
+   min-height: 300px;
+   padding: 50px 0px;
+ }
+}
+
+
+/* icon */
+.wrap h6 {
+  white-space: normal;
+  width: 125px; 
+  margin: 0 auto;
+}
+.wrap h6:hover {
+  text-decoration: underline;
+}
+.wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+}
+.item {
+  display: inline-block;
+  width: 200px; 
+  height: 112px;
+  text-align: center;
+}
+
+
+/*shop inf 1 */
+.box {
+  padding: 30px;  
+ }
+ .box p {
+  font-weight: 60;
+  padding: 20px;
+  font-size: 15px;
+ }
+ .box h2 {
+  font-weight: 120;
+  font-size: 30px;
+ }
+ .box a {
+   text-decoration: none;
+   color: darkred;
+   font-size: 20px;
+ }
+ .box a:hover {
+   text-decoration: underline;
+ }
+ .container{
+  margin-top: 40px;
+}
+ .container ul {
+   padding-left: 0px;
+ }
+ .mck {
+  font-size: 20px;
+  font-weight: bolder;
+  display: block;
+}
+.vb span {
+  font-weight: 200;
+}
+.ig{
+  width: 100%;
+  height: auto;;
+}
+.vb {
+  padding-bottom: 23px;
+}
+
+/* photo same as carousel */
+
+/* shop inf 2 same as shop inf 1 */
+.lable {padding: 20px ;}
+
+/* footer */
+.container{
+  margin-top: 40px;
+}
+.footer {
+  text-transform: capitalize; 
+  font-size: large;
+  padding-bottom: 25px; 
+}
+.vb p {
+  font-weight: 100;
+}
+.cab {
+  list-style: none;
+  padding: 40px 0px 40px 0px;
+  font-size: 15px;
+}
+.cab span {
+  padding-left: 15px;
+}  
+.bbc {
+  padding-top: 40px;
+}
+footer {
+  padding-top: 20px;
+  background-color: #e6e6e6;
+}
+#icon {
+  margin-bottom: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+footer p:hover {
+  text-decoration: underline;
+  color: red;
+}
+.flex span:hover {
+  text-decoration: underline;
+  color: red;
+}
+@media screen and (max-width:992px) {
+  .but-inf{display: block;}
+  .cab {padding-left: -50px;} 
+}

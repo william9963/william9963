@@ -1,0 +1,87 @@
+/* header */
+Header {
+  background: #293f50;
+  color: #fff;
+}
+.head-brand {
+  align-items: baseline;
+  word-spacing: 10px;
+  padding: 50px 150px;
+}
+.head-brand a {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 100;
+}
+.head-brand a:hover{
+  color: #648880;
+}
+@media screen and (max-width:992px) {
+  .head-brand {
+    flex-direction: column;
+    }
+  .head-data {
+    align-self: flex-end;
+    padding-top: 50px;
+  }
+}
+.head-brand p {
+  color: #648880;
+}
+.head-brand div {
+  text-align: end;
+}
+.head-brand span:hover {
+  color: #648880;
+}
+.brand-inf a:hover {
+  background: #fff;
+  color: #648880;
+}
+.brand-inf {  
+  padding: 0px 80px 80px 80px;
+  margin-bottom: 80px;
+}
+.brand-inf span {
+  font-size: 40px;
+  font-weight: 100;
+  word-spacing: 4px;
+  color: #648880;
+}
+.brand-inf p {
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 40px; ;
+}
+.brand-inf a {
+  color: #fff;
+  padding: 15px 20px;
+}
+
+
+
+.row {
+  padding: 0px 160px;
+  color: rgba(180, 173, 173, 0.74);
+}
+.row h6 {
+ 
+  font-size: 100;
+}
+.row h4 {
+
+  font-weight: 100;
+}
+.row h4:hover {
+  color: rgba(180, 173, 173, 0.932);
+}
+
+
+.footer-inf {
+  background: #293f50;
+  color: #fff;
+  padding: 1em;
+  margin-top: 100px;
+  height: 100px;
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+/* icon */
+.wrap h6 {
+  white-space: normal;
+  width: 125px; 
+  margin: 0 auto;
+}
+.wrap h6:hover {
+  text-decoration: underline;
+}
+.wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+}
+.item {
+  display: inline-block;
+  width: 200px; 
+  height: 112px;
+  text-align: center;
+}
